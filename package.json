@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "ci:lint": "eslint .",
     "test": "jest --watch",
     "ci:test": "jest --ci"
