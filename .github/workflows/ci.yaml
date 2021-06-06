@@ -6,14 +6,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: node -v
       - name: Checkout code
         uses: actions/checkout@v2
       - uses: actions/setup-node@v2
-        with:
-          node-version: "14.15.1"
 
-      - run: node -v
       - name: Install packages
         run: npm ci
       - name: Run ESlint
