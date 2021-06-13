@@ -16,3 +16,5 @@ jobs:
         run: npm run ci:lint
       - name: Run Tests
         run: npm run ci:test
+      - name: Bundle and Output
+        run: npm run build
