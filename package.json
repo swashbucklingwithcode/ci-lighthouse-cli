@@ -1,5 +1,6 @@
 {
-  "name": "ci-github-actions",
+  "name": "ci-lighthouse-cli",
+  "private": "true",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
